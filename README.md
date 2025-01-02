@@ -1,84 +1,84 @@
-Sistema de Quejas y Reclamos
-Descripción
-Sistema web full-stack que permite gestionar quejas y reclamos mediante códigos QR. Implementa un CRUD completo para administrar QRs, clientes, agencias, empleados y seguimiento de casos.
+# Sistema de Quejas y Reclamos
 
-Características principales
-Gestión de QRs (crear, leer, actualizar, eliminar)
-Manejo de clientes y agencias
-Sistema de autenticación con Firebase
-Interfaz moderna con Angular Material
-API REST con Express y MySQL
-Diseño responsive
-Tecnologías utilizadas
+## Descripción
 
-Frontend
-Angular 15.2
-Angular Material
-Firebase Authentication
-RxJS
-TypeScript
-HTML/CSS
-Backend
-Node.js
-Express
-MySQL
-Cors
-Instalación
-Prerequisitos
-Node.js >= 14
-MySQL >= 5.7
-Angular CLI >= 15.2
+Sistema web **full-stack** diseñado para gestionar quejas y reclamos mediante códigos QR. Este sistema permite realizar un CRUD completo para administrar QRs, clientes, agencias, empleados y el seguimiento de casos.
 
-# Clonar el repositorio
-git clone https://github.com/your-username/sistema-qr.git
+## Características Principales
 
-# Instalar dependencias del frontend
-cd paginaCRUD
-npm install
+- **Gestión de QRs**: Crear, leer, actualizar y eliminar códigos QR.
+- **Manejo de clientes y agencias**: Administrar información de clientes y agencias.
+- **Autenticación con Firebase**: Sistema de autenticación basado en Firebase.
+- **Interfaz moderna**: Uso de **Angular Material** para una interfaz atractiva y funcional.
+- **API REST**: Desarrollada con **Express** y **MySQL** para la gestión de datos.
+- **Diseño Responsive**: Compatible con dispositivos móviles y pantallas de escritorio.
 
-# Instalar dependencias del backend
-cd ../appServer
-npm install
+## Tecnologías Utilizadas
 
-# Configurar base de datos
-# Crear base de datos 'awm' en MySQL
-# Importar script SQL (ubicado en /database/awm.sql)
+### Frontend
+- **Angular 15.2**
+- **Angular Material**
+- **Firebase Authentication**
+- **RxJS**
+- **TypeScript**
+- **HTML/CSS**
 
-# Configurar variables de entorno
-# Crear archivo .env en /appServer con las credenciales de la BD
+### Backend
+- **Node.js**
+- **Express**
+- **MySQL**
+- **Cors**
 
-# Iniciar backend (desde /appServer)
-npm start 
+## Instalación
 
-# Iniciar frontend (desde /paginaCRUD)
-ng serve
+### Prerequisitos
 
-Uso
-Acceder a http://localhost:4200
-Iniciar sesión con credenciales de Firebase: 
-"vichicelakevin@gmail.com"
-"kevin12345"
-Usar el menú lateral para navegar entre módulos
-Gestionar QRs y seguimiento de casos
+- **Node.js** >= 14
+- **MySQL** >= 5.7
+- **Angular CLI** >= 15.2
 
-Estructura del proyecto
-.
-├── appServer/          # Backend
-│   ├── config/        # Configuración BD
-│   ├── models/        # Modelos de datos
-│   ├── routes/        # Rutas API
-│   └── index.js       # Punto de entrada
-└── paginaCRUD/        # Frontend
-    ├── src/
-    │   ├── app/      # Componentes
-    │   ├── assets/   # Recursos
-    │   └── ...
-    └── ...
+### Pasos para la Instalación
 
-Licencia
-Distributed under the MIT License. See LICENSE for more information.
+1. **Clonar el repositorio**  
+   Clona este proyecto en tu máquina local:
+   ```bash
+   git clone https://github.com/your-username/sistema-qr.git
 
-Contacto
-Your Name - @yourtwitter - email@example.com
+2. **Instalar dependencias del frontend
+    Dirígete a la carpeta del frontend y ejecuta:**
+    cd paginaCRUD
+    npm install
 
-Project Link: https://github.com/your-username/sistema-qr
+3. **Instalar dependencias del backend**
+    Dirígete a la carpeta del backend y ejecuta:
+    cd ../appServer
+    npm install
+
+4. **Configurar la base de datos**
+    Crea la base de datos awm en MySQL.
+    Importa el script SQL ubicado en /database/awm.sql.
+    Configurar variables de entorno
+    Crea un archivo .env en la carpeta /appServer con las credenciales de tu base de datos.
+
+## Iniciar el backend
+    Desde la carpeta /appServer, ejecuta:
+npm start
+
+## Iniciar el frontend
+    Desde la carpeta /paginaCRUD, ejecuta:
+    ng serve
+
+## Uso
+    Accede a la aplicación en http://localhost:4200.
+    Inicia sesión con las siguientes credenciales de Firebase:
+    Correo: vichicelakevin@gmail.com
+    Contraseña: kevin12345
+    Usa el menú lateral para navegar entre los diferentes módulos del sistema.
+    Gestiona QRs y realiza el seguimiento de casos.
+
+## Licencia
+    Distribuido bajo la licencia MIT. Consulta el archivo LICENSE para más información.
+
+## Contacto
+    Email: kvichicela8375@uta.edu.ec
+   
